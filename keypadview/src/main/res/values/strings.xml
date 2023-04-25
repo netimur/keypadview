@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backspace_description">Keypad\'s backspace button</string>
+    <string name="two_description">Keypad\'s two button</string>
+    <string name="five_description">Keypad\'s five button</string>
+    <string name="eight_description">Keypad\'s eight button</string>
+    <string name="one_description">Keypad\'s one button</string>
+    <string name="four_description">Keypad\'s four button</string>
+    <string name="seven_description">Keypad\'s seven button</string>
+    <string name="optional_button_description">Keypad\'s optional button</string>
+    <string name="zero_description">Keypad\'s zero button</string>
+    <string name="three_description">Keypad\'s three button</string>
+    <string name="six_description">Keypad\'s six button</string>
+    <string name="nine_description">Keypad\'s nine button</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeypadView">
+        <attr name="keypadBackgroundTint" format="color" />
+        <attr name="keypadButtonsColor" format="color" />
+        <attr name="keypadIconColor" format="reference|color" />
+        <attr name="keypadOptionalButtonVisibility">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+        <attr name="keypadOptionalButtonIcon" format="reference"/>
+        <attr name="keypadOptionalButtonIconColor" format="color"/>
+        <attr name="keypadBackspaceButtonIcon" format="reference"/>
+        <attr name="keypadBackspaceButtonIconColor" format="color"/>
+        <attr name="keypadNumberButtonsIconColor" format="color"/>
+        <attr name="keypadBackspaceButtonColor" format="color"/>
+        <attr name="keypadOptionalButtonColor" format="color"/>
+        <attr name="keypadButtonsSize" format="dimension"/>
+
+    </declare-styleable>
+    <attr name="keypadStyle" format="reference"/>
+</resources>

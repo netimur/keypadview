@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="KeypadButtonsStyle">
+        <item name="keypadButtonsColor">@color/white</item>
+        <item name="keypadIconColor">@color/benetton</item>
+        <item name="keypadBackgroundTint">@color/white</item>
+    </style>
+</resources>

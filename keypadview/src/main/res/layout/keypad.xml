@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/two_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/five"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/frame_2"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/five_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/eight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/frame_5"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/eight_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/zero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/frame_8"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/one_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/four"
+        app:layout_constraintEnd_toStartOf="@id/zero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/frame_1"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/four_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/seven"
+        app:layout_constraintEnd_toStartOf="@id/zero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/frame_4"
+        app:tint="@color/benetton" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/seven_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/fingerprint"
+        app:layout_constraintEnd_toStartOf="@id/zero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/frame_7"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fingerprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/optional_button_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toBottomOf="@id/zero"
+        app:layout_constraintEnd_toStartOf="@id/zero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fingerprint"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/zero_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zero"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/three_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/six"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/zero"
+        app:srcCompat="@drawable/frame_3"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/six_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/nine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/zero"
+        app:srcCompat="@drawable/frame_6"
+        app:tint="@color/benetton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/backspc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/zero"
+        app:srcCompat="@drawable/frame_9"
+        app:tint="@color/benetton"
+        android:contentDescription="@string/nine_description" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backspc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/backspace_description"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toBottomOf="@id/zero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/zero"
+        app:srcCompat="@drawable/backspace"
+        app:tint="@color/benetton" />
+</merge>
